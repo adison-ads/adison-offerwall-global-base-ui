@@ -17,7 +17,7 @@ let package = Package(
         .binaryTarget(
             name: "AdisonOfferwallGlobalBaseUI",
             url: "https://github.com/adison-ads/adison-offerwall-global-base-ui/releases/download/0.9.0-beta1/AdisonOfferwallGlobalBaseUI.zip",
-            checksum: ""
+            checksum: "207a492dfa24b133f8795d5580c2e3d237d03ed8afcb6d20c5d12dda24e78a9a"
         ),
         .target(
             name: "AdisonOfferwallGlobalBaseUITarget",
