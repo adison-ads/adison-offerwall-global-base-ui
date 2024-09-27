@@ -11,13 +11,13 @@ let package = Package(
             targets: ["AdisonOfferwallGlobalBaseUI", "AdisonOfferwallGlobalBaseUITarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/adison-ads/adison-offerwall-global-base", exact: "0.9.0-beta4")
+        .package(url: "https://github.com/adison-ads/adison-offerwall-global-base", exact: "0.9.0-beta5")
     ],
     targets: [
         .binaryTarget(
             name: "AdisonOfferwallGlobalBaseUI",
-            url: "https://github.com/adison-ads/adison-offerwall-global-base-ui/releases/download/0.9.0-beta4/AdisonOfferwallGlobalBaseUI.zip",
-            checksum: "16fabb7b2e5479eda82180cfed797a70b02a5a67cc8bab6e19edf96694b90086"
+            url: "https://github.com/adison-ads/adison-offerwall-global-base-ui/releases/download/0.9.0-beta5/AdisonOfferwallGlobalBaseUI.zip",
+            checksum: "aa432becf51232de6503edf56e1237862587bb3af1e75ca218e33cb9b151d11c"
         ),
         .target(
             name: "AdisonOfferwallGlobalBaseUITarget",
